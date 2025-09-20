@@ -1,0 +1,80 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: rgb(66, 66, 66);
+}
+
+.container {
+    min-height: inherit;
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-block {
+    background-color: rgb(143, 141, 141);
+    width: 60vw;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(216, 216, 216, 0.808);
+    padding: 15px;
+}
+
+
+input, button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.808);
+}
+
+button:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.weather-form {
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 15px;
+}
+
+.card header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+.j-center {
+    justify-content: center;
+}
+.a-item{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+
+.my-10  {
+    margin: 10px 0;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
